@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import CommentLists from "./chapter_5/CommentLists";
+import NotificationList from "./chapter_6/NotificationList";
+import RefExample from "./chapter_7/RefExample";
+import Accomodate from "./chapter_7/Accomodate";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import ConfirmButton from "./chpater_8/ConfirmButton";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <ConfirmButton />
   </React.StrictMode>
 );
 

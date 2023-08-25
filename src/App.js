@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+// const http = require("http");
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+// http
+//   .createServer(function (request, response) {
+//     response.writeHead(200, { "Content-Type": "text/html" });
+//     response.end("<h1>im running node!</h1>");
+//   })
+//   .listen(52273, function () {
+//     console.log("Server running at http:127.0.0.1:72273/");
+//   });
